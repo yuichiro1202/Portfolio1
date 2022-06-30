@@ -21,3 +21,9 @@ nav {
   footer{
     text-align: center;
   }
+
+/* 画像サイズを常にウィンドウ幅に設定 */
+img {
+  width: 100%;
+  height: auto;
+}
