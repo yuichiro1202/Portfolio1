@@ -29,31 +29,22 @@ img {
     }
 
 
-.btn-social-circle {
+.btn-circle-fishy {
   display: inline-block;
   text-decoration: none;
+  color: #FFF;
   width: 50px;
   height: 50px;
-  line-height: 50px;
-  font-size: 23px;
-  border-radius: 50%;
+  line-height: 80px;
+  border-radius: 40%;
   text-align: center;
   overflow: hidden;
-  font-weight: bold;
-  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.66);
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.28);
-  transition: .3s;
+  background-image: linear-gradient(45deg, #709dff 0%, #91fdb7 100%);
+  transition: .4s;
 }
-.btn-social-circle i {
-  line-height: 50px;
-}
-.btn-social-circle:hover　{
-  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.28);
-  -webkit-transform: translateY(-5px);
-  transform: translateY(-5px);
-}
-.btn-social-circle--twitter {
-  color: #22b8ff;
-  background-image: linear-gradient(#aeecff 0%, #57c8ff 100%);
+
+.btn-circle-fishy:hover {
+  -webkit-transform: rotate(10deg);
+  transform: rotate(10deg);
 }
 
