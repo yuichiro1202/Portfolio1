@@ -59,3 +59,9 @@ img {
   line-height: 50px;
 }
 
+.contact-logo:hover {
+  border-radius: 50px;
+  background: #EBECF0;
+  box-shadow: inset 5px 5px 20px #c8c9cc,
+  inset -5px -5px 20px #fff;
+}
