@@ -36,11 +36,11 @@ img {
 
 
 img.worked {
-    width: 400px;
-    height: 200px;
+    width: 500px;
+    height: 300px;
 }
 
-/* .btn-social-icon-twitter {
+.btn-social-icon-twitter {
   text-decoration: none;
   display: inline-block;
   text-align: center;
@@ -69,5 +69,5 @@ img.worked {
 .btn-social-icon-twitter__square i {
   line-height: 50px;
 }
- */
+
 
