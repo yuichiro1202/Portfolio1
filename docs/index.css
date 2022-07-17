@@ -24,7 +24,6 @@ nav {
 
 /* 画像サイズを常にウィンドウ幅に設定 */
 img {
-    position: absolute;
     width: 100%;
     height: 100%;
     top: 0;
