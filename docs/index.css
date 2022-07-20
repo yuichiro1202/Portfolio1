@@ -40,6 +40,11 @@ img.worked {
     height: 300px;
 }
 
+img.about {
+    width: 500px;
+    height: 400px;
+}
+
 .btn-social-icon-twitter {
   text-decoration: none;
   display: inline-block;
