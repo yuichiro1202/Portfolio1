@@ -67,7 +67,7 @@ img.worked {
     height: 300px;
 }
 
-img.about {
+.about {
     position: relative;
     display: inline-block;
     border-radius: 50%;
