@@ -67,6 +67,8 @@ img.worked {
     height: 300px;
 }
 .about {
+	width: 400px;
+	height: 300px;
 	display: inline-block;
 	position: relative;
 	overflow: hidden; /* 不要部分を消す */
