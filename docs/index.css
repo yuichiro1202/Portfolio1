@@ -67,14 +67,14 @@ img.worked {
     height: 300px;
 }
 .about {
-	width: 400px;
-	height: 300px;
 	display: inline-block;
 	position: relative;
 	overflow: hidden; /* 不要部分を消す */
 	padding: 6px; /* 6px だけは写真からはみ出す */
 }
 .about img {
+	width: 400px;
+	height: 300pxl;
 	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
 }
 .about:before,
