@@ -39,7 +39,7 @@ li {
 #title {
   font-size: 3rem;
   margin-top: 100px;
-  text-align: left;
+  text-align: center;
 }
 
 const title = "Yuichiro's Portfolio";
