@@ -34,9 +34,17 @@ li {
   margin-bottom: 65px;
 }
 
-/*-------------------------------------------
-ヘッダー
--------------------------------------------*/
+
+
+#title {
+  font-size: 3rem;
+  margin-top: 100px;
+  text-align: left;
+}
+
+const title = "Yuichiro's Portfolio";
+document.getElementById("title").textContent = title;
+
 #header {
   max-width: 960px;
   display: flex;
@@ -64,9 +72,8 @@ li {
   width: 20px;
 }
 
-/*-------------------------------------------
-Mainvisual
--------------------------------------------*/
+
+
 #mainvisual {
   margin-bottom: 80px;
 }
@@ -77,9 +84,8 @@ Mainvisual
   object-fit: cover;
 }
 
-/*-------------------------------------------
-About
--------------------------------------------*/
+
+
 #about ul {
   margin-bottom: 30px;
 }
@@ -103,9 +109,9 @@ About
   object-fit: cover;
 }
 
-/*-------------------------------------------
-Works
--------------------------------------------*/
+
+
+
 #works ul {
   display: flex;
   justify-content: space-between;
@@ -117,9 +123,8 @@ Works
   margin-bottom: 23px;
 }
 
-/*-------------------------------------------
-News
--------------------------------------------*/
+
+
 #news dl {
   display: flex;
   flex-wrap: wrap;
@@ -137,9 +142,8 @@ News
   padding: 15px;
 }
 
-/*-------------------------------------------
-Contact
--------------------------------------------*/
+
+
 #contact dl {
   display: flex;
   flex-wrap: wrap;
@@ -176,9 +180,8 @@ Contact
   color: #24292e;
 }
 
-/*-------------------------------------------
-フッター
--------------------------------------------*/
+
+
 #footer {
   background-color: #24292e;
   color: #fff;
@@ -187,9 +190,8 @@ Contact
   text-align: center;
 }
 
-/*-------------------------------------------
-SP
--------------------------------------------*/
+
+
 @media screen and (max-width: 600px) {
   .wrapper {
     margin-bottom: 70px;
@@ -201,9 +203,8 @@ SP
     margin-bottom: 40px;
   }
 
-  /*-------------------------------------------
-  ヘッダー
-  -------------------------------------------*/
+
+  
   #header {
     max-width: 100%;
     height: auto;
@@ -217,9 +218,8 @@ SP
     margin-left: 0;
   }
 
-  /*-------------------------------------------
-  Works
-  -------------------------------------------*/
+
+  
   #works ul {
     flex-direction: column;
   }
@@ -227,9 +227,8 @@ SP
     width: 100%;
   }
 
-  /*-------------------------------------------
-  News
-  -------------------------------------------*/
+
+  
   #news dl {
     flex-direction: column;
   }
@@ -243,9 +242,8 @@ SP
     padding-top: 0;
   }
 
-  /*-------------------------------------------
-  Contact
-  -------------------------------------------*/
+
+  
   #contact dl {
     flex-direction: column;
   }
