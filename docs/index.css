@@ -108,19 +108,41 @@ li {
   flex-wrap: wrap;
   margin-bottom: 50px;
 }
+
 #works li {
   width: 31%;
   margin-bottom: 23px;
 }
 
 
+#news dl::-webkit-scrollbar {
 
-#news dl {
+  width: 7px;
+
+}
+
+#news dl::-webkit-scrollbar-thumb {
+
+  background: linear-gradient(0deg,#43e2c6,#3183d0);
+
+  border-radius: 3px;
+
+}
+
+#news dl::-webkit-scrollbar-track {
+
+  background: rgba(100,100,100, .5);
+
+}
+
+
+
+/* #news dl {
   display: flex;
   flex-wrap: wrap;
   border-top: solid 1px #c8c8c8;
   margin-bottom: 20px;
-}
+} */
 #news dt {
   width: 20%;
   border-bottom: solid 1px #c8c8c8;
@@ -227,8 +249,8 @@ li {
     height: 200px;
 }
   
-/*   #news dl {
-    flex-direction: column; */
+  #news dl {
+    flex-direction: column;
    
   }
   #news dt {
