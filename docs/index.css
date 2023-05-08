@@ -36,10 +36,10 @@ li {
 
 
 
-#title {
+#title-name {
   font-size: 3rem;
   margin-top: 100px;
-  text-align: center;
+  text-align: left;
 }
 
 const title = "Yuichiro's Portfolio";
