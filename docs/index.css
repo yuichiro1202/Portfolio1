@@ -219,9 +219,18 @@ li {
   }
 
 
-  
   #news dl {
-    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    border-top: solid 1px #c8c8c8;
+    margin-bottom: 20px;
+    overflow-y: scroll;
+    height: 200px;
+}
+  
+/*   #news dl {
+    flex-direction: column; */
+   
   }
   #news dt {
     width: 100%;
