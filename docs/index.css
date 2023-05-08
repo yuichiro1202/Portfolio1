@@ -36,13 +36,6 @@ li {
 
 
 
-#title-name {
-  font-size: 3rem;
-  margin-top: 100px;
-  text-align: left;
-}
-
-
 #header {
   max-width: 960px;
   display: flex;
