@@ -42,8 +42,6 @@ li {
   text-align: left;
 }
 
-const title = "Yuichiro's Portfolio";
-document.getElementById("title").textContent = title;
 
 #header {
   max-width: 960px;
