@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head>
-    <meta charset="utf-8">
-    <title>My Work - Portfolio</title>
-    <meta name="description" content="テキストテキストテキストテキストテキストテキストテキストテキスト">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="img/favicon.ico">
-    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
-    <link rel="stylesheet" href="css/style.css">
+   <meta charset="UTF-8">
+    <meta http-wquiv="X-UA-Compatible" content="IF=edge">
+    <meta name="vieport" content="widhth=device-widhth, initial-scale=1, maximum-scale=1, user-scalable=no">
+    
+    <title>Portfolio</title>
+    <link href="index.css" rel="stylesheet" type="text/css">
   </head>
 
   <body>
@@ -20,8 +19,8 @@
           <li><a href="#news">News</a></li>
           <li><a href="#contact">Contact</a></li>
           <li>
-            <a href="https://www.instagram.com/" target="_blank">
-              <img class="icon" src="./img/icon-instagram.png" alt="インスタグラム">
+            <a href="https://twitter.com/yuichiro_1202" class="btn-social-icon-twitter__square">
+            <img src="twitter.jpg" class="btn-social-icon-twitter__square" alt="twitter">
             </a>
           </li>
         </ul>
@@ -32,35 +31,59 @@
       <div id="mainvisual">
         <picture>
           <source media="(max-width: 600px)" srcset="img/mainvisual-sp.jpg">
-          <img src="img/mainvisual-pc.jpg" alt="テキストテキストテキスト">
+          <img src="rohasu.jpg" alt="テキストテキストテキスト">
         </picture>
       </div>
 
       <section id="about" class="wrapper">
         <h2 class="sec-title">About</h2>
         <ul>
-          <li>Xxxxx Ashley</li>
-          <li>2th Floor xxxxx Building x-x-x Nishiazabu, Minato-ku, Tokyo 106-0031 Japan</li>
-          <li>tel: 000-0000-0000</li>
-          <li>url: www.xxxxxx.jp</li>
-          <li>mail: xxx@xxxxxx.jp</li>
+            <li>Name：Yuichiro Asai</li>
+            <li>Faculty of Data Science, Musashino University</li>
+            <li>所属団体：大学祭実行委委員会渉外局 BohPJ(サークル)</li>
+            <li>趣味：料理、旅行、スキー、映画鑑賞</li>
+            <li>目標：自然言語処理の技術を深める</li>
         </ul>
         <p>
-          プロフィールテキストテキストテキストテキストテキストテキストテキストテキストテキストスト
-          テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-          テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+          テキストテキストテキストテキストテキスト
         </p>
       </section>
 
       <section id="works" class="wrapper">
         <h2 class="sec-title">Works</h2>
         <ul>
-          <li><img src="img/works1.jpg" alt="テキストテキストテキスト"></li>
-          <li><img src="img/works2.jpg" alt="テキストテキストテキスト"></li>
-          <li><img src="img/works3.jpg" alt="テキストテキストテキスト"></li>
-          <li><img src="img/works4.jpg" alt="テキストテキストテキスト"></li>
-          <li><img src="img/works5.jpg" alt="テキストテキストテキスト"></li>
-          <li><img src="img/works6.jpg" alt="テキストテキストテキスト"></li>
+          <li>
+            <p>資料</p>
+            <a href="https://drive.google.com/file/d/1Bust6ccyPlgSpI2JRUyhd7v4AZbv-K0i/view?usp=sharing" target="_blank">
+                <div class="about"><img class="worked" src="BohPJ_OC.jpg"></a></div>
+            <p>webアプリ</p>
+            <a href="https://drive.google.com/file/d/18W_jfxsbQ_S7rdXM3nYviUZnccSFCcrj/view?usp=sharing" target="_blank">
+                 <div class="about"><img class="worked" src="BohPJ_OC_web.jpg"></a></div>
+            <p>2022年7月3日オープンキャンパスにて発表済み</p>
+            <p>使用言語：Python 使用フレームワーク：Streamlit</p> 
+            <p>本研究は、BERTを用いた1日のニュースのネガポジ判定の可視化を行ったものである。
+                ＊本研究は共同研究で行ったものである。</p>
+          </li>
+          <li>
+            <p>資料</p>
+            <a href="https://drive.google.com/file/d/1l_qpVBldvM4tsR3lku38orIrjijQsE8d/view?usp=sharing" target="_blank">
+                 <div class="about"><img class="worked" src="VirachPJ.jpg"></a></div>
+            <p>2021年授業内研究</p>
+            <p>使用言語：Python</p>
+            <p>本研究は、Word2Vecを用いて食材のベクトルを求め似ている食材を導くというものである。
+            ＊なお本研究は共同研究で行ったものである。</p>
+          </li>
+           <li>
+            <p>資料</p>
+            <a href="https://drive.google.com/file/d/1QJF3qWSppfB8zFwKc6Egcuod-Z9h2lRx/view?usp=sharing" target="_blank">
+                 <div class="about"><img class="worked" src="aitech_document.jpg"></a></div>
+            <p>webアプリ</p>
+             <a href="https://drive.google.com/file/d/1ZBakM6XK827l6asd2CkYSoWrw_gbauo8/view?usp=sharing" target="_blank">
+                 <div class="about"><img class="worked" src="aitech_mov.jpg"></a></div>
+            <p>授業内最終課題</p>
+            <p>使用言語：Python、HTML/CSS、Flask</p>
+            <p>DBを用いて九州地方のお勧め観光スポットを提案し、地図にプロットさせたものである。</p>
+           </li>
         </ul>
       </section>
 
