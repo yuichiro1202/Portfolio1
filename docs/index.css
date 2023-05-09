@@ -40,7 +40,7 @@ li {
   max-width: 960px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: right;
   height: 270px;
   margin: 0 auto;
   padding: 0 4%;
