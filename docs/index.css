@@ -46,14 +46,14 @@ li {
   top: 0;
   left: 0;
   right: 0;
-  max-width: 960px;
+  max-width: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 270px;
+  height: 100px;
   margin: 0 auto;
   padding: 0 4%;
-  background-color: #fff;
+  background-color: #999999;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 #header ul {
