@@ -48,7 +48,6 @@ li {
 #header ul {
   display: flex;
   padding: 10px 0;
-  align-items: right;
 }
 #header li {
   font-size: 0.9rem;
