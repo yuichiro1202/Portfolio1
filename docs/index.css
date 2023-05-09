@@ -24,6 +24,12 @@ li {
 }
 .site-title {
   line-height: 1px;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #333;
+  padding: 20px;
+  float: left;
 }
 .site-title a {
   display: block;
@@ -34,9 +40,18 @@ li {
   margin-bottom: 65px;
 }
 
-
-
 #header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* #header {
   max-width: 960px;
   display: flex;
   justify-content: space-between;
@@ -61,7 +76,7 @@ li {
 }
 #header li img.icon {
   width: 20px;
-}
+} */
 
 #name-title {
   font-size: 3rem;
