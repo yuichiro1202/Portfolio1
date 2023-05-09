@@ -81,15 +81,7 @@ li {
 }
 
 
-#mainvisual {
-  margin-bottom: 80px;
-}
-#mainvisual img {
-  width: 100%;
-  max-width: 1920px;
-  height: 420px;
-  object-fit: cover;
-}
+
 
 
 
@@ -143,8 +135,6 @@ li {
 #news dl::-webkit-scrollbar-track {
   background: rgba(100,100,100, .5);
 }
-
-
 
 /* #news dl {
   display: flex;
