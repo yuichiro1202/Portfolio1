@@ -22,8 +22,20 @@ li {
   margin: 0 auto 100px auto;
   font-size: 0.9rem;
   padding: 0 4%;
-  
 }
+
+.profile{
+  max-width: 500px;
+  text-align: left;
+  margin: 0 auto;
+  padding: 10px 30px;
+  background: lightblue;
+}
+.profile li{
+  display: inline-block;
+  text-align: center;
+}
+
 .site-title {
   line-height: 1px;
   font-size: 24px;
@@ -57,6 +69,7 @@ li {
   padding: 0 4%;
   background-color: #40a1c4;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1;
 }
 #header ul {
   display: flex;
@@ -147,6 +160,7 @@ li {
   text-align: center;
   margin-bottom: 30px;
   position: relative;
+  z-index: 0;
 }
 
 .work{
@@ -191,58 +205,41 @@ li {
 }
 
 
-#contact a{
-  overflow: hidden;
-  padding: 1.5rem 6rem;
+#contact a.btn-flat {
+  display: inline-block;
+  position: relative;
+  padding: 1.5rem 3rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
   color: #fff;
+  background-color: #000;
+  border: none;
   border-radius: 0;
-  background: #000;
+  overflow: hidden;
+  cursor: pointer;
 }
 
-#contact a span {
+#contact a.btn-flat span:first-of-type {
   position: relative;
   z-index: 1;
 }
 
-#contact a:before {
+#contact a.btn-flat span:last-of-type {
   position: absolute;
   top: 0;
-  left: calc(-100% + 10px);
+  left: 0;
   width: 100%;
   height: 100%;
-  content: '';
-  -webkit-transition: all .5s ease-in-out;
-  transition: all .5s ease-in-out;
-  -webkit-transform: translateX(0) translateY(0);
-  transform: translateX(0) translateY(0);
-  background: #094;
+  z-index: 0;
+  background-color: #094;
+  opacity: 0;
+  transition: opacity 0.3s ease-out;
 }
 
-#contact a:after {
-  position: absolute;
-  top: 0;
-  right: calc(-100% + 10px);
-
-  width: 100%;
-  height: 100%;
-
-  content: '';
-  -webkit-transition: all .5s ease-in-out;
-  transition: all .5s ease-in-out;
-  -webkit-transform: translateX(0) translateY(0);
-  transform: translateX(0) translateY(0);
-
-  background: #094;
-}
-
-#contact a:hover:before {
-  -webkit-transform: translateX(50%) translateY(0);
-  transform: translateX(50%) translateY(0);
-}
-
-#contact a:hover:after {
-  -webkit-transform: translateX(-50%) translateY(0);
-  transform: translateX(-50%) translateY(0);
+#contact a.btn-flat:hover span:last-of-type {
+  opacity: 1;
 }
 
 #footer {
