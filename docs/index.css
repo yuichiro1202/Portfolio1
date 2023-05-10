@@ -95,8 +95,11 @@ li {
 }
 
 #me img {
+  width: 200px;
+  height: 200px;
   clip-path: circle(50%);
   object-fit: cover;
+  
 }
 
 
