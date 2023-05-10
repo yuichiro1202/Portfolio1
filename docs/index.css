@@ -198,14 +198,12 @@ li {
 }
 
 .work p {
+  margin: 0;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  text-align: center;
-  margin: 0;
-  font-weight: 600;
-  line-height: 1.5;
+  margin-right: 100px;
+  text-align: left;
 }
 
  .work-description {
@@ -237,12 +235,17 @@ li {
   border-bottom: solid 1px #c8c8c8;
   padding: 15px;
 }
+
 #news dd {
   width: 80%;
   border-bottom: solid 1px #c8c8c8;
   padding: 15px;
 }
 
+#news strong{
+  font-weight: bold;
+  text-decoration: underline;
+}
 
 
 #contact a.btn-flat {
