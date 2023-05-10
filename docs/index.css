@@ -94,7 +94,7 @@ li {
   text-align:justify;
 }
 
-#me img {
+#me {
   width: 200px;
   height: 200px;
   clip-path: circle(50%);
