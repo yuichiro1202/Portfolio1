@@ -29,7 +29,6 @@ li {
   text-align: left;
   margin: 0 auto;
   padding: 10px 30px;
-  background: lightblue;
 }
 
 .profile ul {
@@ -176,16 +175,16 @@ li {
 .work{
   text-align: center;
   margin-bottom: 30px;
-  position: relative;
   background-color:  #40a1c4;
+  max-width: 100%;
   align-items: center;
   justify-content: center;
   margin-top: 50px;
   display: flex;
   align-items: center;
   margin-bottom: 20px;
-  
 }
+
 .work-img {
   border: 5px solid rgb(173, 173, 173);
   margin-right: 400px;
@@ -211,12 +210,13 @@ li {
   flex-direction: column;
   margin-left: 20px;
  }
+
 #news {
-  max-height: 300px; /* ニュース欄の最大高さ */
-  overflow-y: auto; /* 縦スクロールバーを表示 */
+  max-height: 300px;
+  overflow-y: scroll; 
 }
 
-#news dl::-webkit-scrollbar {
+/* #news dl::-webkit-scrollbar {
   width: 7px;
 }
 
@@ -227,7 +227,7 @@ li {
 
 #news dl::-webkit-scrollbar-track {
   background: rgba(100,100,100, .5);
-}
+} */
 
 
 #news dt {
