@@ -5,7 +5,6 @@ html {
 }
 body {
   color: #24292e;
-  text-align: center;
 }
 a {
   text-decoration: none;
@@ -318,6 +317,9 @@ li {
   opacity: 0;
 }
 
+#contact{
+  text-align: center;
+}
 #contact a.btn-flat {
   display: inline-block;
   position: relative;
@@ -425,7 +427,6 @@ li {
   position: relative;
   display: block;
   padding: 1.5rem 5rem 1.5rem 5rem;
-
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   border: 2px solid #000;
