@@ -5,10 +5,12 @@ html {
 }
 body {
   color: #24292e;
+  text-align: center;
 }
 a {
   text-decoration: none;
 }
+
 img {
   max-width: 100%;
 }
@@ -80,11 +82,11 @@ li {
   z-index: 2;
 }
 
-#header ul {
+#header ul{
   display: flex;
   padding: 10px 0;
 }
-#header a {
+#header a{
   font-size: 0.9rem;
   margin-left: 30px;
 }
