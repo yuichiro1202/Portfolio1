@@ -320,6 +320,11 @@ li {
   opacity: 0;
 }
 
+.skill-contents{
+  background-color: white;
+  padding: 2rem;
+  text-align: center;
+}
 
 #skills .skill{
   border: 5px solid rgb(173, 173, 173);
@@ -329,6 +334,9 @@ li {
   margin-top: 20px;
   margin-right: 20px;
 }
+
+
+
 
 #skills .skill-icon{
   display: inline-block;
@@ -353,7 +361,7 @@ li {
 }
 
 #skills .presentation{
-  text-align: right;
+  text-align: center;
 }
 
 #contact{
