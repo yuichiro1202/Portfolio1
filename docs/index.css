@@ -211,11 +211,11 @@ li {
   flex-direction: column;
   margin-left: 20px;
  }
-
 #news {
   max-height: 450px;
   overflow-y: scroll;
   background-color: rgb(52, 144, 183,0.3);
+  margin-top: 50px;
 }
 
 
@@ -235,7 +235,10 @@ li {
   font-weight: bold;
 }
 
-
+#news .sec-title{
+  text-align: center;
+  margin-bottom: 240px;
+}
 
 
 #news .btn,
@@ -317,8 +320,49 @@ li {
   opacity: 0;
 }
 
+
+#skills .skill{
+  border: 5px solid rgb(173, 173, 173);
+  display: inline-block;
+  text-align: center;
+  background-color: rgb(52, 144, 183,0.3);
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+#skills .skill-icon{
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  margin: 0 40px;
+}
+
+#skills .progress-bar{
+  width: 90%;
+  background-color: #ffffff;
+  height: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#skills .progress{
+  height: 100%;
+  background-color: #37d537;
+}
+
+#skills .presentation{
+  text-align: right;
+}
+
 #contact{
   text-align: center;
+  margin-bottom: 150px;
+}
+
+#contact .sec-title{
+  margin-bottom: 150px;
 }
 #contact a.btn-flat {
   display: inline-block;
